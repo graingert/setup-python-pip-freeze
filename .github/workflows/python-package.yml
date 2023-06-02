@@ -28,3 +28,4 @@ jobs:
     - name: pip freeze
       run: |
         python -m pip freeze
+        python -c "import six; print(six)"
